@@ -1,5 +1,6 @@
 # djnago_mysql_wamp
-Connecting to mysql database in wampserver using Django
+Connecting to mysql database in wampserver using Django.
+<br>
 first you need go to `requirements.txt` and install this libraris, for install with cmd:
 ```
 pip install -r requirements.txt
