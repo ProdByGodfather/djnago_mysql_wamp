@@ -11,7 +11,7 @@ On `django_mysql/settings.py` I write default Connection on Wampserver mysql wit
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mahdi', # db Name
+        'NAME': 'your_db_name', # db Name
         'USER': 'root', # db Username
         'PASSWORD': '', # db Password
         'HOST':'localhost', # db host
