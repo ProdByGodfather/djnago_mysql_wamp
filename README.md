@@ -6,7 +6,7 @@ first you need go to `requirements.txt` and install this libraris, for install w
 pip install -r requirements.txt
 ```
 
-On 'django_mysql/settings.py' I write default Connection on Wampserver mysql with django (on default user):
+On `django_mysql/settings.py` I write default Connection on Wampserver mysql with django (on default user):
 ```
 DATABASES = {
     'default': {
@@ -19,5 +19,8 @@ DATABASES = {
     }
 }
 ```
-
+now you can migrate to mysql wampserver with this command:
+```
+python manage.py migrate
+```
 
