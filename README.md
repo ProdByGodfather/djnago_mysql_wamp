@@ -7,7 +7,6 @@ pip install -r requirements.txt
 
 On 'django_mysql/settings.py' I write default Connection on Wampserver mysql with django (on default user):
 ```
-```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
